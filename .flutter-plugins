@@ -1,0 +1,23 @@
+# This is a generated file; do not edit or check into version control.
+flutter_inappwebview=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/
+flutter_plugin_android_lifecycle=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/
+flutter_secure_storage=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_secure_storage-9.0.0/
+flutter_secure_storage_linux=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_secure_storage_linux-1.2.0/
+flutter_secure_storage_macos=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_secure_storage_macos-3.0.1/
+flutter_secure_storage_web=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_secure_storage_web-1.1.2/
+flutter_secure_storage_windows=/Users/briancorbin/.pub-cache/hosted/pub.dev/flutter_secure_storage_windows-3.0.0/
+local_auth=/Users/briancorbin/.pub-cache/hosted/pub.dev/local_auth-2.1.8/
+local_auth_android=/Users/briancorbin/.pub-cache/hosted/pub.dev/local_auth_android-1.0.36/
+local_auth_ios=/Users/briancorbin/.pub-cache/hosted/pub.dev/local_auth_ios-1.1.6/
+local_auth_windows=/Users/briancorbin/.pub-cache/hosted/pub.dev/local_auth_windows-1.0.10/
+passkeys=/Users/briancorbin/.pub-cache/hosted/pub.dev/passkeys-2.0.2/
+passkeys_android=/Users/briancorbin/.pub-cache/hosted/pub.dev/passkeys_android-2.0.0/
+passkeys_ios=/Users/briancorbin/.pub-cache/hosted/pub.dev/passkeys_ios-2.0.0/
+passkeys_web=/Users/briancorbin/.pub-cache/hosted/pub.dev/passkeys_web-2.0.0/
+path_provider=/Users/briancorbin/.pub-cache/hosted/pub.dev/path_provider-2.1.2/
+path_provider_android=/Users/briancorbin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.2/
+path_provider_foundation=/Users/briancorbin/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.2/
+path_provider_linux=/Users/briancorbin/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/briancorbin/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
+sqflite=/Users/briancorbin/.pub-cache/hosted/pub.dev/sqflite-2.3.0/
+ua_client_hints=/Users/briancorbin/.pub-cache/hosted/pub.dev/ua_client_hints-1.2.0/
