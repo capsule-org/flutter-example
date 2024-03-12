@@ -1,6 +1,8 @@
 # Capsule Flutter Example
 
-This Repo has an example app demonstrating usage of the capsule_flutter plugin.
+![flutter_demo](https://github.com/capsule-org/flutter-example/assets/2686353/216c204a-5b0f-4b85-a416-0b529741802f)
+
+This Repo has an example app demonstrating usage of the capsule flutter plugin.
 
 Before getting started, you'll need a Capsule API Key. Get one [here](https://usecapsule.com/beta)
 
