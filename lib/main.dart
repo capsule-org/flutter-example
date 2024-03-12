@@ -40,7 +40,7 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
 
   static const _chainId = 4;
 
-  // Get an api key at usecapsule.com
+  // Get an api key at usecapsule.comi/beta
   static const testApiKey = 'YOUR_API_KEY';
 
   @override
