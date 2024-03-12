@@ -468,8 +468,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/passkeys/passkeys_ios"
-      ref: HEAD
-      resolved-ref: edd38ab05b4288279192ed4f8e7c666a508bff17
+      ref: update-passkeys-ios-excluded-credentials-issue
+      resolved-ref: d0c0bf74fa86e880baf4df07465c6a7ca557eb60
       url: "https://github.com/capsule-org/flutter-passkeys.git"
     source: git
     version: "2.0.2"

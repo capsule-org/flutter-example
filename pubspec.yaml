@@ -26,6 +26,7 @@ dependency_overrides:
   passkeys_ios:
     git:
       url: https://github.com/capsule-org/flutter-passkeys.git
+      ref: update-passkeys-ios-excluded-credentials-issue
       path: packages/passkeys/passkeys_ios
 
 dev_dependencies:
