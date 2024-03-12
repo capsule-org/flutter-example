@@ -4,7 +4,6 @@ import 'package:capsule/capsule.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 Future main() async {
