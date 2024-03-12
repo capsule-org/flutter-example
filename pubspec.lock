@@ -449,7 +449,7 @@ packages:
     source: hosted
     version: "4.13.1"
   passkeys:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: passkeys
       sha256: "894c8ac80379d2b95bbefc27b8b53afb6ae04d8f040a78a0394ffe9ec849df2c"
@@ -465,12 +465,13 @@ packages:
     source: hosted
     version: "2.0.3"
   passkeys_ios:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: passkeys_ios
-      sha256: "4da97e6670a68a613483b577736d7d45f848a118bb177052c01f9d56cdf90f81"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/passkeys/passkeys_ios"
+      ref: HEAD
+      resolved-ref: edd38ab05b4288279192ed4f8e7c666a508bff17
+      url: "https://github.com/briancorbin/flutter-passkeys.git"
+    source: git
     version: "2.0.2"
   passkeys_platform_interface:
     dependency: transitive
