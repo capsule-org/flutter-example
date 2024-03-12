@@ -470,7 +470,7 @@ packages:
       path: "packages/passkeys/passkeys_ios"
       ref: HEAD
       resolved-ref: edd38ab05b4288279192ed4f8e7c666a508bff17
-      url: "https://github.com/briancorbin/flutter-passkeys.git"
+      url: "https://github.com/capsule-org/flutter-passkeys.git"
     source: git
     version: "2.0.2"
   passkeys_platform_interface:
