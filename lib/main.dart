@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:capsule_flutter/capsule_flutter.dart';
+import 'package:capsule/capsule.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -36,12 +36,11 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   String? _walletAddress;
   List<String> _signatures = [];
   static const progressMax = 8;
-  final ChromeSafariBrowser _browser = ChromeSafariBrowser();
 
   static const _chainId = 4;
 
   // Get an api key at usecapsule.com
-  static const testApiKey = 'YOUR_API_KEY';
+  static const testApiKey = 'd0b61c2c8865aaa2fb12886651627271';
 
   @override
   void initState() {
@@ -124,10 +123,7 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
       },
     );
 
-    // This url contains the biometrics key which we will need when patching
-    // the biometrics key to the capsule server.
-    final webAuthUri = Uri.parse(await _capsule.verifyEmail(verificationCode));
-    final biometricsId = webAuthUri.pathSegments.last;
+    final biometricsId = await _capsule.verifyEmail(verificationCode);
     // This step is so fast, add some delay
     await Future.delayed(const Duration(milliseconds: 200));
     setState(() {
