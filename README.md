@@ -22,11 +22,11 @@ Before getting started, you'll need a Capsule API Key. Get one [here](https://us
 4. set the team to your team and give the example app a unique bundle identifier
 
 **Note:** you will need an organization level account, personal development accounts do not allow for associated domains
+
 **Note:** please submit the appID to the capsule team. This will be in the following format: TEAM_ID.bundleIdentifier
 
-start an iOS simulator
-If using VSCode, go to the run and debug tab
-click play button, which will allow you to debug if desiredi
+5. Start an iOS simulator. If using VSCode, go to the run and debug tab
+6. Click play button, which will allow you to debug if desired
 
 ### Via Command Link
 Alternatively, you can use `flutter run`
