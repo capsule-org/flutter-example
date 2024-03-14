@@ -4,10 +4,13 @@ import 'package:capsule/capsule.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await dotenv.load();
 
   runApp(
     MaterialApp(
@@ -38,15 +41,12 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
 
   static const _chainId = 4;
 
-  // Get an api key at usecapsule.com/beta
-  static const testApiKey = 'YOUR_API_KEY';
-
   @override
   void initState() {
     _tabController = TabController(length: 2, vsync: this);
     _capsule = Capsule(
-      environment: Environment.beta,
-      apiKey: testApiKey,
+      environment: EnvironmentExtension.fromString(dotenv.env['CAPSULE_ENV']!),
+      apiKey: dotenv.env['CAPSULE_API_KEY']!,
     )..init();
     super.initState();
   }

@@ -10,7 +10,9 @@ Before getting started, you'll need a Capsule API Key. Get one [here](https://us
 
 1. Clone this repo locally `git clone git@github.com:capsule-org/flutter-example.git`
 2. In the root directory, run `flutter pub get`
-3. In lib/main.dart (line 44) enter your API key for the desired environment (probably beta). On line 50, modify the desired environment (if not beta)
+3. Create a `.env` file in the root directory. You can copy the `.env.example` and modify, it includes all of the requried environment variables to run the app.
+
+**Note** Valid environments are `dev`, `sandbox`, `beta`, and `prod`
 
 **Note:** If you haven't done so already, please reach out to the capsule team for a beta api key to start testing!
 
@@ -31,9 +33,9 @@ Before getting started, you'll need a Capsule API Key. Get one [here](https://us
 6. Click play button, which will allow you to debug if desired
 
 ### Via Command Link
+
 Alternatively, you can use `flutter run`
 
 ## Questions and Troubleshooting
 
 Need any additional help? Get in touch via the beta form or support@usecapsule.com
-

@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  capsule: 0.1.0-dev.9
+  capsule: 0.1.0-dev.11
   flutter_inappwebview: ^5.8.0
   cupertino_icons: ^1.0.2
   uuid: ^4.1.0
@@ -21,6 +21,7 @@ dependencies:
   pointycastle: ^3.7.4
   pem: ^2.0.5
   basic_utils: ^5.7.0
+  flutter_dotenv: ^5.1.0
 
 dependency_overrides:
   passkeys_ios:
@@ -36,3 +37,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets: [".env"]
