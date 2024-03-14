@@ -17,14 +17,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
-  basic_utils:
-    dependency: "direct main"
-    description:
-      name: basic_utils
-      sha256: "2064b21d3c41ed7654bc82cc476fd65542e04d60059b74d5eed490a4da08fc6c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.7.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -45,10 +37,10 @@ packages:
     dependency: "direct main"
     description:
       name: capsule
-      sha256: b5b253fe4477bd9be1113b886ad0024102352dcfbd8e10274ff3a7f4e7e86ea5
+      sha256: eab421bb5b76e50584902ae1681a34d6bb1cb34bd2ee2567a81b2df4f6997129
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0-dev.11"
+    version: "0.1.0-dev.12"
   cbor:
     dependency: transitive
     description:
@@ -82,7 +74,7 @@ packages:
     source: hosted
     version: "1.18.0"
   convert:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: convert
       sha256: "0f08b14755d163f6e2134cb58222dd25ea2a2ee8a195e53983d57c075324d592"
@@ -113,14 +105,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.0+1"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: d57953e10f9f8327ce64a508a355f0b1ec902193f66288e8cb5070e7c47eeb2d
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.6"
   equatable:
     dependency: transitive
     description:
@@ -175,7 +159,7 @@ packages:
     source: hosted
     version: "5.1.0"
   flutter_inappwebview:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_inappwebview
       sha256: d198297060d116b94048301ee6749cd2e7d03c1f2689783f52d210a6b7aba350
@@ -416,14 +400,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
-  logging:
-    dependency: transitive
-    description:
-      name: logging
-      sha256: "623a88c9594aa774443aa3eb2d41807a48486b5613e67599fb4c41c0ad47c340"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.0"
   matcher:
     dependency: transitive
     description:
@@ -460,10 +436,10 @@ packages:
     dependency: transitive
     description:
       name: passkeys
-      sha256: "894c8ac80379d2b95bbefc27b8b53afb6ae04d8f040a78a0394ffe9ec849df2c"
+      sha256: "79f07498b44d8372a569904d5e3e1de238d83abcf83b79d583a06394b98d2789"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.5"
+    version: "2.0.7"
   passkeys_android:
     dependency: transitive
     description:
@@ -473,14 +449,13 @@ packages:
     source: hosted
     version: "2.0.3"
   passkeys_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/passkeys/passkeys_ios"
-      ref: update-passkeys-ios-excluded-credentials-issue
-      resolved-ref: d0c0bf74fa86e880baf4df07465c6a7ca557eb60
-      url: "https://github.com/capsule-org/flutter-passkeys.git"
-    source: git
-    version: "2.0.2"
+      name: passkeys_ios
+      sha256: "411b10c3cd159c9601426d47b2dc5aa4dd1e34ef69deefaac01ff81712ea6064"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.3"
   passkeys_platform_interface:
     dependency: transitive
     description:
@@ -561,14 +536,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
-  pem:
-    dependency: "direct main"
-    description:
-      name: pem
-      sha256: "3dfb24524f805ad694ba3cdbb6387ab31ab661fdb8ea873052ed88487fcfef86"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.5"
   petitparser:
     dependency: transitive
     description:
@@ -594,7 +561,7 @@ packages:
     source: hosted
     version: "2.1.8"
   pointycastle:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: pointycastle
       sha256: "43ac87de6e10afabc85c445745a7b799e04de84cebaa4fd7bf55a5e1e9604d29"
@@ -735,7 +702,7 @@ packages:
     source: hosted
     version: "0.2.0"
   uuid:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: uuid
       sha256: cd210a09f7c18cbe5a02511718e0334de6559871052c90a90c0cca46a4aa81c8
@@ -791,7 +758,7 @@ packages:
     source: hosted
     version: "0.5.1"
   webauthn:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: webauthn
       sha256: b4a9a58c73cbf501a28e6cc78dd9b48542bfbfdc6dbcb7677ef06114bc0cf6da
