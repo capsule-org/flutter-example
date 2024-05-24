@@ -37,10 +37,10 @@ packages:
     dependency: "direct main"
     description:
       name: capsule
-      sha256: "1d880455ed95abb21f617cb07f28e8dcfd7a1caa131e2b99713e5e10d9f7044a"
+      sha256: "8d83dd24e471664452a3fe13d3bc80836b6c624fd078b0b05bcd68a8f83f0945"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0-dev.15"
+    version: "0.1.0-dev.17"
   cbor:
     dependency: transitive
     description:
