@@ -4,9 +4,9 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>webcredentials:optimum-seagull-discrete.ngrok-free.app?mode=development</string>
-		<string>webcredentials:app.sandbox.usecapsule.com</string>
-		<string>webcredentials:app.beta.usecapsule.com</string>
+		<string>webcredentials:optimum-seagull-discrete.ngrok-free.app</string>
+		<string>webcredentials:app.sandbox.usecapsule.com?mode=development</string>
+		<string>webcredentials:app.beta.usecapsule.com?mode=development</string>
 		<string>webcredentials:app.usecapsule.com</string>
 	</array>
 </dict>

@@ -47,6 +47,7 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
     _capsule = Capsule(
       environment: EnvironmentExtension.fromString(dotenv.env['CAPSULE_ENV']!),
       apiKey: dotenv.env['CAPSULE_API_KEY']!,
+      relyingPartyId: dotenv.env['CAPSULE_RELYING_PARTY_ID'],
     )..init();
     super.initState();
   }
@@ -68,6 +69,7 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
       _progress = 0;
       _statusMessage = 'Creating user...';
     });
+
     final email = await showDialog(
       context: context,
       builder: (_) {
@@ -254,8 +256,14 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   }
 
   Future<void> _testSignInNativePasskey() async {
-    final wallets = await _capsule.login();
-    final wallet = wallets[0];
+    var wallet;
+    try {
+      wallet = await _capsule.login();
+    } on CapsuleBridgeException catch (error) {
+      print(error.message);
+      return;
+    }
+
     setState(() => _walletAddress = wallet['address']);
 
     for (int i = 0; i < 3; i++) {
