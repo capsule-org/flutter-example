@@ -1,3 +1,8 @@
+# ARCHIVED
+
+Please refer to the latest examples on the
+[Capsule Docs Examples Hub](https://docs.usecapsule.com/getting-started/examples)
+
 # Capsule Flutter Example
 
 ![flutter_demo](https://github.com/capsule-org/flutter-example/assets/2686353/216c204a-5b0f-4b85-a416-0b529741802f)
